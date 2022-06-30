@@ -1,1 +1,1 @@
-# rightproject.github.io.
+# rightproject.github.io
