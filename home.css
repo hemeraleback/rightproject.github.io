@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(172, 0, 0);
+}
+
+
+header{
+    position: relative;
+    background-color: white;
+    padding: 25px;
+    color: black;
+    font-size: 20px;
+    top: -30px;
+    right: 0px;
+    margin: -8px;
+}
+
+/*Place the .socialbtn in the same line of the Progetti text*/
+.socialbtn{
+    /*Make this move if the screen size changes*/
+    position: relative;
+    margin-left: -10px;
+    margin-top: -10px;
+    top: 30px;
+    right: -75%;
+    border: none;
+    background-color: transparent;
+}
+
+
+.toolbar{
+    position: relative;
+    top: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0px;
+}
+
+.rettangolini_base{
+    border-radius: 25px;
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.rettangoloni{
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+    width: 90%;
+    height: 550px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+	position: relative;
+    background-color: rgba(255, 255, 255, 0.205);
+    backdrop-filter: blur(5px);
+
+}
+
+.bot{
+	left: 10%;
+    padding: 15px;
+}
+
+.rettangolini_base:hover{
+    background-color: black;
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+}
+
+.rettangolini_base:hover + .ibot{
+    display: none;
+    -webkit-transition: all 1s ease;
+}
+
+.rettangolini_base:hover + .iwebsite{
+    display: none;
+    -webkit-transition: all 1s ease;
+}
+
+.rettangolini_base:hover + .isoftware{
+    display: none;
+    -webkit-transition: all 1s ease;
+}
+
+.website{
+    padding: 15px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: -100px 0 0 -175px;
+}
+
+.software{
+	right: 10%;
+    padding: 15px;
+}
+
+.progetti_base{
+    border-radius: 25px;
+    position: absolute;
+    padding: 15px;
+    margin: 15px;
+    width: 500px;
+    height: 550px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    text-align: center;
+}
+
+.ygn{
+    padding: 15px;
+    position: relative;
+    top: 1%;
+    left: 46%;
+    margin: -100px 0 0 -175px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.205);
+    backdrop-filter: blur(5px);
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 73px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ibot{
+    position: absolute;
+    top: 35%;
+    left: 14.2%;
+}
+
+.iwebsite{
+    position: absolute;
+    top: 38%;
+    left: 44.8%;
+}
+
+.isoftware{
+    position: absolute;
+    top: 38%;
+    right: 14.2%;
+}
